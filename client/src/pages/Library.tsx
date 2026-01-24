@@ -7,7 +7,7 @@ import { BookMarked } from "lucide-react";
 
 export default function Library() {
   // In a real app, this would filter by user ID. For now, we'll show "favorites" and some random ones as "mine".
-  const myPrompts = mockPrompts.filter(p => p.isFavorite || p.author.name === "John Doe"); // Assuming logged in user is John Doe or has favorites
+  const myPrompts = mockPrompts.filter(p => p.isFavorite || p.author.name === "Mike Mainland"); // Assuming logged in user is Mike Mainland or has favorites
 
   return (
     <div className="min-h-screen bg-background font-sans">

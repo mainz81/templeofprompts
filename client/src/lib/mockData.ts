@@ -26,7 +26,7 @@ export const mockPrompts: Prompt[] = [
     likes: 1240,
     copies: 850,
     author: {
-      name: "Alex Rivera",
+      name: "Mike Mainland",
       avatar: "https://i.pravatar.cc/150?u=1",
     },
     createdAt: "2023-10-15",
@@ -42,7 +42,7 @@ export const mockPrompts: Prompt[] = [
     likes: 3500,
     copies: 2100,
     author: {
-      name: "Sarah Chen",
+      name: "Mike Mainland",
       avatar: "https://i.pravatar.cc/150?u=2",
     },
     createdAt: "2023-11-02",
@@ -57,7 +57,7 @@ export const mockPrompts: Prompt[] = [
     likes: 890,
     copies: 420,
     author: {
-      name: "Mike Johnson",
+      name: "Mike Mainland",
       avatar: "https://i.pravatar.cc/150?u=3",
     },
     createdAt: "2023-09-20",
@@ -72,7 +72,7 @@ export const mockPrompts: Prompt[] = [
     likes: 5600,
     copies: 4000,
     author: {
-      name: "Elena V.",
+      name: "Mike Mainland",
       avatar: "https://i.pravatar.cc/150?u=4",
     },
     createdAt: "2023-12-05",
@@ -88,7 +88,7 @@ export const mockPrompts: Prompt[] = [
     likes: 1100,
     copies: 600,
     author: {
-      name: "David Kim",
+      name: "Mike Mainland",
       avatar: "https://i.pravatar.cc/150?u=5",
     },
     createdAt: "2023-10-30",
@@ -103,12 +103,12 @@ export const mockPrompts: Prompt[] = [
     likes: 2200,
     copies: 1500,
     author: {
-      name: "Sophie L.",
+      name: "Mike Mainland",
       avatar: "https://i.pravatar.cc/150?u=6",
     },
     createdAt: "2023-11-15",
   },
-    {
+  {
     id: "7",
     title: "Python Data Analysis Script",
     description: "Automate your data cleaning and visualization workflow with pandas and matplotlib.",
@@ -118,7 +118,7 @@ export const mockPrompts: Prompt[] = [
     likes: 1800,
     copies: 950,
     author: {
-      name: "James Wu",
+      name: "Mike Mainland",
       avatar: "https://i.pravatar.cc/150?u=7",
     },
     createdAt: "2023-10-05",
@@ -133,7 +133,7 @@ export const mockPrompts: Prompt[] = [
     likes: 750,
     copies: 300,
     author: {
-      name: "Marcus A.",
+      name: "Mike Mainland",
       avatar: "https://i.pravatar.cc/150?u=8",
     },
     createdAt: "2023-09-10",
