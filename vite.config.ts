@@ -3,13 +3,13 @@ import react from "@vitejs/plugin-react"
 import path from "path"
 
 export default defineConfig({
-  // The React app lives here
+  // Your app lives here
   root: path.resolve(__dirname, "client"),
 
-  plugins: [react()],
-
-  // Needed so assets load correctly on Vercel
+  // Required so assets load correctly on Vercel
   base: "/",
+
+  plugins: [react()],
 
   resolve: {
     alias: {
@@ -18,7 +18,7 @@ export default defineConfig({
   },
 
   build: {
-    // Output to repo-level /dist
+    // IMPORTANT: output must be repo-level /dist
     outDir: path.resolve(__dirname, "dist"),
     emptyOutDir: true,
   },
