@@ -11,6 +11,8 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
+import ninjaAvatar from "@/assets/ninja-avatar.png";
+
 export function Navbar() {
   const [location] = useLocation();
 
@@ -55,8 +57,8 @@ export function Navbar() {
             <DropdownMenuTrigger asChild>
               <Button variant="ghost" size="icon" className="relative h-9 w-9 rounded-full">
                 <Avatar className="h-9 w-9 border border-border">
-                  <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
-                  <AvatarFallback>JD</AvatarFallback>
+                  <AvatarImage src={ninjaAvatar} alt="Mike Mainland" />
+                  <AvatarFallback>MM</AvatarFallback>
                 </Avatar>
               </Button>
             </DropdownMenuTrigger>

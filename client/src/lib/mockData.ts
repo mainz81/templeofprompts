@@ -1,3 +1,5 @@
+import ninjaAvatar from "@/assets/ninja-avatar.png";
+
 export interface Prompt {
   id: string;
   title: string;
@@ -27,7 +29,7 @@ export const mockPrompts: Prompt[] = [
     copies: 850,
     author: {
       name: "Mike Mainland",
-      avatar: "https://i.pravatar.cc/150?u=1",
+      avatar: ninjaAvatar,
     },
     createdAt: "2023-10-15",
     isFavorite: true,
@@ -43,7 +45,7 @@ export const mockPrompts: Prompt[] = [
     copies: 2100,
     author: {
       name: "Mike Mainland",
-      avatar: "https://i.pravatar.cc/150?u=2",
+      avatar: ninjaAvatar,
     },
     createdAt: "2023-11-02",
   },
@@ -58,7 +60,7 @@ export const mockPrompts: Prompt[] = [
     copies: 420,
     author: {
       name: "Mike Mainland",
-      avatar: "https://i.pravatar.cc/150?u=3",
+      avatar: ninjaAvatar,
     },
     createdAt: "2023-09-20",
   },
@@ -73,7 +75,7 @@ export const mockPrompts: Prompt[] = [
     copies: 4000,
     author: {
       name: "Mike Mainland",
-      avatar: "https://i.pravatar.cc/150?u=4",
+      avatar: ninjaAvatar,
     },
     createdAt: "2023-12-05",
     isFavorite: true,
@@ -89,7 +91,7 @@ export const mockPrompts: Prompt[] = [
     copies: 600,
     author: {
       name: "Mike Mainland",
-      avatar: "https://i.pravatar.cc/150?u=5",
+      avatar: ninjaAvatar,
     },
     createdAt: "2023-10-30",
   },
@@ -104,7 +106,7 @@ export const mockPrompts: Prompt[] = [
     copies: 1500,
     author: {
       name: "Mike Mainland",
-      avatar: "https://i.pravatar.cc/150?u=6",
+      avatar: ninjaAvatar,
     },
     createdAt: "2023-11-15",
   },
@@ -119,7 +121,7 @@ export const mockPrompts: Prompt[] = [
     copies: 950,
     author: {
       name: "Mike Mainland",
-      avatar: "https://i.pravatar.cc/150?u=7",
+      avatar: ninjaAvatar,
     },
     createdAt: "2023-10-05",
   },
@@ -127,14 +129,14 @@ export const mockPrompts: Prompt[] = [
     id: "8",
     title: "Stoic Daily Reflection",
     description: "Start your day with a guided journaling session based on Stoic philosophy.",
-    content: "Act as a Stoic philosopher. Provide a morning reflection prompt based on a quote from Marcus Aurelius regarding [CURRENT_STRUGGLE]. Then ask 3 guiding questions...",
+    content: "Act as a Stoic philosopher. Provide a morning reflection prompt based on a copy of a quote from Marcus Aurelius regarding [CURRENT_STRUGGLE]. Then ask 3 guiding questions...",
     category: "Productivity",
     tags: ["Mindfulness", "Philosophy", "Journaling"],
     likes: 750,
     copies: 300,
     author: {
       name: "Mike Mainland",
-      avatar: "https://i.pravatar.cc/150?u=8",
+      avatar: ninjaAvatar,
     },
     createdAt: "2023-09-10",
   }
